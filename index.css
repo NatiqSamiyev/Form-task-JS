@@ -26,7 +26,7 @@ form {
   width: 100%;
   height: 100%;
   padding: 15px 10px;
-  color: #fff;
+  color: red;
   text-align: center;
   font-family: Epilogue;
   font-size: 14px;
@@ -41,7 +41,6 @@ form {
 
 .select-option {
   position: relative;
- 
 }
 
 .select-option svg {
@@ -52,27 +51,29 @@ form {
   right: 20px;
 }
 
-.option-box{
-    width: 100%;
-    border: 1px solid gray;
-    border-radius: 5px;
-    padding: 10px;
-    margin-top: 5px;
-    display: none;
-    background-color: #fff;
-    cursor: pointer;
-  
+.option-box {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+  display: none;
+  background-color: #fff;
+  cursor: pointer;
 }
 
-.no-rotate{
-    transform: translateY(-45%);
+.option-box p{
+  font-size: 16px;
 }
 
-.active{
-    display: block;
+.no-rotate {
+  transform: translateY(-45%);
 }
 
-.rotate{
-    transform: translateY(-45%) rotate(180deg);
+.active {
+  display: block;
 }
 
+.rotate {
+  transform: translateY(-45%) rotate(180deg);
+}
